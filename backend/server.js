@@ -1,4 +1,3 @@
-
 require("dotenv").config();
 
 const express = require("express");
@@ -10,7 +9,7 @@ const adminRoutes = require("./routes/adminRoutes");
 const briefRoutes = require("./routes/briefRoutes");
 const creatorRoutes = require("./routes/creatorRoutes");
 const applicationRoutes = require("./routes/applicationRoutes");
-const messageRoutes = require("./routes/messageRoutes");
+const messageRoutes = require("./routes/MessageRoutes");
 
 const app = express();
 
@@ -42,7 +41,7 @@ mongoose.connect(process.env.MONGODB_URI)
         const PORT = process.env.PORT || 5000;
 
         app.listen(PORT, () => {
-            console.log(`Server running on http://localhost:${PORT}`);
+            console.log(`Server running on port ${PORT}`);
         });
     })
     .catch((error) => {
