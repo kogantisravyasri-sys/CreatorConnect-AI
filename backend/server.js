@@ -1,3 +1,4 @@
+
 require("dotenv").config();
 
 const express = require("express");
@@ -6,7 +7,7 @@ const mongoose = require("mongoose");
 
 const authRoutes = require("./routes/authRoutes");
 const adminRoutes = require("./routes/adminRoutes");
-const briefRoutes = require("./routes/briefRoutes");
+const briefRoutes = require("./routes/BriefRoutes");
 const creatorRoutes = require("./routes/creatorRoutes");
 const applicationRoutes = require("./routes/applicationRoutes");
 const messageRoutes = require("./routes/MessageRoutes");
