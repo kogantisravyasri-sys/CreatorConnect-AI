@@ -7,11 +7,10 @@ const mongoose = require("mongoose");
 
 const authRoutes = require("./routes/authRoutes");
 const adminRoutes = require("./routes/adminRoutes");
-const briefRoutes = require("./routes/BriefRoutes");
+const briefRoutes = require("./routes/briefRoutes");
 const creatorRoutes = require("./routes/creatorRoutes");
 const applicationRoutes = require("./routes/applicationRoutes");
-const MessageRoutes = require("./routes/MessageRoutes");
-
+const messageRoutes = require("./routes/MessageRoutes");
 const app = express();
 
 app.use(cors());
