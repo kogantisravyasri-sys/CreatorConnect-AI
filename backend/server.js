@@ -10,7 +10,7 @@ const adminRoutes = require("./routes/adminRoutes");
 const briefRoutes = require("./routes/BriefRoutes");
 const creatorRoutes = require("./routes/creatorRoutes");
 const applicationRoutes = require("./routes/applicationRoutes");
-const messageRoutes = require("./routes/MessageRoutes");
+const MessageRoutes = require("./routes/MessageRoutes");
 
 const app = express();
 
